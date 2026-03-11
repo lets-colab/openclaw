@@ -169,6 +169,13 @@
 
 ## Agent-Specific Notes
 
+- Personal context bootstrap:
+  - Read `~/.ai-context/profile.md` for stable user preferences and working style when that file exists.
+  - Read `~/.ai-context/projects.md` for cross-project priorities and current focus when that file exists.
+  - Read `.agent/project-context.md` for repo-specific state before substantial work.
+  - Use `~/.ai-context/history.md` only for milestone backfill or when recent changes need clarification.
+  - At the end of a milestone session, propose a short memory update and write it only after user approval.
+  - Never store secrets, credentials, raw personal identifiers, or other sensitive plaintext in any memory file.
 - Vocabulary: "makeup" = "mac app".
 - Never edit `node_modules` (global/Homebrew/npm/git installs too). Updates overwrite. Skill notes go in `tools.md` or `AGENTS.md`.
 - When adding a new `AGENTS.md` anywhere in the repo, also add a `CLAUDE.md` symlink pointing to it (example: `ln -s AGENTS.md CLAUDE.md`).
