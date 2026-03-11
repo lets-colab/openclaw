@@ -3,6 +3,7 @@
     "oxc.oxc-vscode",
     "github.vscode-pull-request-github",
     "ms-vscode-remote.remote-wsl",
-    "charliermarsh.ruff"
+    "charliermarsh.ruff",
+    "ms-kubernetes-tools.vscode-kubernetes-tools"
   ]
 }
